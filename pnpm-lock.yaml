@@ -4,9 +4,11 @@ specifiers:
   '@vue/compiler-sfc': ^3.0.0-rc.1
   vite: ^1.0.0-rc.1
   vue: ^3.0.0-rc.1
+  vue-router: 4.0.0-beta.3
 
 dependencies:
   vue: 3.2.39
+  vue-router: 4.0.0-beta.3_vue@3.2.39
 
 devDependencies:
   '@vue/compiler-sfc': 3.2.39
@@ -1849,6 +1851,14 @@ packages:
       - ts-node
       - utf-8-validate
     dev: true
+
+  /vue-router/4.0.0-beta.3_vue@3.2.39:
+    resolution: {integrity: sha512-3/cg3n46D9MO9u2nvtGE38gMyUxg8sjt6jMeZ6zbi9sRGAL0PaDHuKS+xWlOOLit7abP5MepNlh84t41gxtP8Q==}
+    peerDependencies:
+      vue: ^3.0.0-beta.20
+    dependencies:
+      vue: 3.2.39
+    dev: false
 
   /vue/3.2.39:
     resolution: {integrity: sha512-tRkguhRTw9NmIPXhzk21YFBqXHT2t+6C6wPOgQ50fcFVWnPdetmRqbmySRHznrYjX2E47u0cGlKGcxKZJ38R/g==}
